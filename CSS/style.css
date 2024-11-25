@@ -1,0 +1,41 @@
+.layer {
+  bottom: 20px;
+  left: 10%;
+  background-color: white;
+  width: 80%;
+}
+
+.item {
+  cursor: pointer;
+}
+.lightBoxContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightBox {
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/portfolio-1.jpg);
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
+
+.lightBox i {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.lightBox #close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
